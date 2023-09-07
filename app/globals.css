@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+}
+
+h2 {
+  margin : 15px;
+}
+
+.navbar {
+  display: flex;
+  background: gray;
+}
+
+.navbar p {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.navbar p:hover {
+  border: 1px solid gray;
+  background: white;
+  color: gray
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white
+}
+
+.list-item {
+  display: flex;
+  border: 1px solid gray;
+  margin: 10px 15px 20px 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 15px 10px 15px 10px gray;
+  justify-content: space-between;
+}
+
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detail {
+  background: slategrey;
+  padding: 10px;
+  height: 300px;
+  justify-content: center;
+}
+
+.detail-item {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.new-item {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 300px;
+  justify-content: space-between;
+  margin: 10px
+}
+
+.msg {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background: slategrey;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.edit-btn:hover {
+  background: white;
+  color: slategrey;
+  border: 1px solid slategrey;
+}
