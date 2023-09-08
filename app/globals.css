@@ -30,13 +30,13 @@ h2 {
 }
 
 .list-item {
-  display: flex;
+  opacity: 1;
+  transition: all 1s;
   border: 1px solid gray;
   margin: 10px 15px 20px 15px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 15px 10px 15px 10px gray;
-  justify-content: space-between;
 }
 
 
